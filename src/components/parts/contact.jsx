@@ -1,5 +1,5 @@
 import { ContactLinks } from './index'
-import { Accordion, AccordionItem } from 'react-light-accordion'
+import { Accordion, AccordionItem} from 'react-light-accordion'
 import 'react-light-accordion/demo/css/index.css'
 
 export default function Contact() {

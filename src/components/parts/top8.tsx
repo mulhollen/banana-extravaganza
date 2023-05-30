@@ -22,19 +22,19 @@ export default function Top8() {
         <div className='px-3 d-flex w-100 myspace__blurbs--topDiv justify-content-between'>
           <Link href='/hstream-store' className='mr-3 d-flex flex-column justify-content-center align-items-center'>
             <h4>hStream Store</h4>
-            <Image src={covidBannerLaptop} alt='Laptop computer opened to a healthcare education marketplace website with a banner for covid education' />
+            <Image className='topImg' src={covidBannerLaptop} alt='Laptop computer opened to a healthcare education marketplace website with a banner for covid education' />
           </Link>
           <Link href='/art-investigator' className='mr-3 d-flex flex-column justify-content-center align-items-center'>
             <h4>Art Investigator</h4>
-            <Image src={mainSquare} alt='iPad view of Art Investigator App home page with alligator illustration and buttons to get started' />
+            <Image className='topImg' src={mainSquare} alt='iPad view of Art Investigator App home page with alligator illustration and buttons to get started' />
           </Link>
           <Link href='/canvas' className='mr-3 d-flex flex-column justify-content-center align-items-center'>
             <h4>Canvas</h4>
-            <Image src={canvasCrop} alt='graphic of painters pallet with the word canvas' />
+            <Image className='topImg' src={canvasCrop} alt='graphic of painters pallet with the word canvas' />
           </Link>
           <Link href='/everything-happens' className='d-flex flex-column justify-content-center align-items-center'>
             <h4>hStream Store</h4>
-            <Image src={ehSquare} alt='Modern dancer in standing position with arms bent and raised, seated dancers and projections screens in background.' />
+            <Image className='topImg' src={ehSquare} alt='Modern dancer in standing position with arms bent and raised, seated dancers and projections screens in background.' />
           </Link>
         </div>
       </div>

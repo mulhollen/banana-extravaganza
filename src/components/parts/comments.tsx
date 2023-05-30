@@ -1,5 +1,4 @@
 import Image from 'next/image'
-
 import { hsSquare } from '@/img/Myspace'
 
 export default function Comments() {
@@ -26,7 +25,7 @@ export default function Comments() {
             <div className='p-1 mr-1 d-flex flex-column align-items-center'>
               <a href='www.melissarobertson.com' target='_blank' className='friendLink'>
                 <h4>Melissa Robertson,<br/>HealthStream Colleague</h4>
-                <Image className='mb-1' src='https://melissarobertson.com/img/Wheatley_Headshot2018.jpg' alt=' ' />
+                <img className='mb-1' src='https://melissarobertson.com/img/Wheatley_Headshot2018.jpg' alt=' ' />
               </a> 
             </div>
             <div className='p-1'>
