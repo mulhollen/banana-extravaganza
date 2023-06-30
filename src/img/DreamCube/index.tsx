@@ -7,6 +7,7 @@ import cubeGif from './DreamCubeGif.gif'
 import cubeInPlay from './DreamCubePlaying.jpeg'
 import cubeSquare from './DreamCubeSquare.png'
 import cubePeople from './DreamCubePeople.jpeg'
+import cubeHitMe from './hitme_dreamcube.gif'
 
 type DreamCubeProps = {
   classes?: string
@@ -29,4 +30,4 @@ function PortfolioDC(props: DreamCubeProps) {
 PortfolioDC.defaultProps = defaultProps;
 
 
-export { cameron, cubeCloseScreenWall, cubeAndBoard, cubeGif, cubeInPlay, cubePeople, PortfolioDC }
+export { cameron, cubeCloseScreenWall, cubeAndBoard, cubeGif, cubeInPlay, cubePeople, cubeHitMe, PortfolioDC }

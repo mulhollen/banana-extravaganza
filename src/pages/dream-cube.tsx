@@ -5,6 +5,8 @@ import {
   cubePeople,
   cubeAndBoard,
   cubeInPlay,
+  cubeHitMe,
+  cubeCloseScreenWall,
   cameron
 } from '@/img/DreamCube'
 
@@ -40,6 +42,9 @@ export default function FieldOfDreams() {
         </p>
       </div>
     </div>
+    <div className='bodyWidth my-5 mx-auto d-flex justify-content-center'>
+      <Image className='w-100 h-auto' src={cubeHitMe} alt='Close view of Dream Cube wall reacting to soccer ball hitting target.' />
+    </div>
     <div className='bodyWidth d-flex justify-content-center yellow flip my-3 mx-auto'>
       <div className='pl-5 widthBlock-50'>
         <h3 className='px-5 pt-5 mb-4'>the tech stack:</h3>
@@ -55,8 +60,10 @@ export default function FieldOfDreams() {
           <li>Bootstrap</li>
         </ul>
       </div>
-      <Image className='p-0 cover widthBlock-50' src={cameron} alt='Man in motion dribbling soccer ball in front of video projection of artistically placed soccer stadium elements.' />
+      <Image className="p-0 cover widthBlock-50" src={cubeCloseScreenWall} alt='Man and woman wearing Manchester United athletic warm up clothing, standing in a lunge position with arms extended, following instruction on Dream Cube wall to &apos;strike a pose.&apos;' />
     </div>
+    <Image className="w-100 mt-5 h-auto" src={cameron} alt='Man in motion dribbling soccer ball in front of video projection of artistically placed soccer stadium elements.' />
+
     <OtherProjects current='dreamCube' />
   </div>
   )

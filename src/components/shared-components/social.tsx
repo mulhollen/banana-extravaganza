@@ -12,12 +12,14 @@ export default function Social() {
 
   return (
     <section className='socials'>
-      <div>
+      <div className='d-flex justify-content-center align-items-center'>
         <a href={`mailto:lindsaymulhollen@gmail.com`} className='mr-3 icon-link'><Envelope /></a>
         <a href='https://www.linkedin.com/in/mulhollen/' target='_blank' rel='noreferrer' className='mr-3 icon-link'><LinkedIn /></a>
         <a href='https://github.com/mulhollen' target='_blank' rel='noreferrer' className='mr-3 icon-link'><Github /></a>
         <Link href='/myspace' className='mr-3 icon-link' onMouseEnter={() => setMyspaceSrc(myspaceHover)} onMouseLeave={() => setMyspaceSrc(myspace)}>
-          <Image src={myspaceSrc} alt='myspace icon' />
+          <div>
+            <Image src={myspaceSrc} alt='myspace icon' />
+          </div>
         </Link>
       </div>
     </section>

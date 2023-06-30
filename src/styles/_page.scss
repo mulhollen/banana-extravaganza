@@ -259,14 +259,16 @@ footer {
   flex-direction: row;
 }
 
-.icon-link svg {
+.icon-link svg,
+.icon-link > div {
   width: 30px;
   height: 30px;
 }
 
-.icon-link img {
-  width: 28px;
-  height: 28px;
+.icon-link > div > img {
+  width: 26.25px;
+  height: 26.25px;
+  margin: 2px;
 }
 
 .funImg {
@@ -396,7 +398,7 @@ footer {
 }
 
 
-.hoverEffect h3 {
+.hoverEffect h3.main {
   font-family: $displayFont;    
   /* text-transform: uppercase; */
   text-align: left;
@@ -412,6 +414,10 @@ footer {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,-100%,0);
   transform: translate3d(0,-100%,0);
+}
+
+.hoverEffect h3.small {
+  font-size: 1.5rem;
 }
 
 .hoverEffect a, .hoverEffect a h3 {
