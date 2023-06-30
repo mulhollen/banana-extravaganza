@@ -14,7 +14,9 @@ export default function About() {
             Inspired to get a start in development after encountering interactive museum exhibits, I&apos;ve grown my passion for puzzle solving, brainstorming, and outside of the box thinking as a software engineer with a knack for front-end, usability, and accessibility. 
             <br />
             <br />                        
-            With my tenure in management, I&apos;m excited to bring my unique background to your nest project where I plan to make my mark with innovative thinking and motivation to tackle even the most unthinkable projects.
+            I&apos;m excited to bring my unique background to your next project where I plan to make my mark with innovative thinking and motivation to tackle even the most unthinkable projects.
+            <br />
+            For fun you can catch me working on various art projects, learning whatever new skills are peaking my interest, and exploring museums and interactive experiences. 
           </p>
           <div className='w-100 d-flex pt-3 align-items-center'>
             <Image className='w-25 h-auto signature' src={lmLogoStill} alt='logo' />
