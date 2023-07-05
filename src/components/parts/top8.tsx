@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import { mainSquare } from '@/img/ArtInvestigator'
-import { canvasCrop } from '@/img/Canvas'
+import { projectionOriginalCrop } from '@/img/Canvas'
 import { ehSquare } from '@/img/EverythingHappens'
 import { covidBannerLaptop } from '@/img/hStreamStore'
 
@@ -30,7 +30,7 @@ export default function Top8() {
           </Link>
           <Link href='/canvas' className='mr-3 d-flex flex-column justify-content-center align-items-center'>
             <h4>Canvas</h4>
-            <Image className='topImg' src={canvasCrop} alt='graphic of painters pallet with the word canvas' />
+            <Image className='topImg' src={projectionOriginalCrop} alt='graphic of painters pallet with the word canvas' />
           </Link>
           <Link href='/everything-happens' className='d-flex flex-column justify-content-center align-items-center'>
             <h4>hStream Store</h4>

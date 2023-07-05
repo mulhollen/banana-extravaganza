@@ -3,9 +3,13 @@ import Image from 'next/image'
 import artlens from './artlens.jpg'
 import artlensWall from './artlensWall.jpg'
 import canvas from './Canvas.png'
-import canvasCrop from './CanvasCrop.png'
 import cmaGif from './CMAgif.gif'
 import persona from './persona.jpeg'
+import couplePlaying from './couplePlaying.png'
+import projectionOriginal from './projectionOriginal.png'
+import playerDrawing from './playerDrawingVertical.png'
+import projectionCorpse from './projectionCorpse.png'
+import projectionOriginalCrop from './projectionOriginalCrop.png'
 
 type CanvasProps = {
   classes?: string
@@ -18,9 +22,9 @@ const defaultProps: CanvasProps = {
 function PortfolioCV(props: CanvasProps) {
   return (
     <Image
-      src={canvas}
+      src={projectionOriginalCrop}
       className={props.classes}
-      alt='Canvas app logo: blue painter&apos;s pallette graphic with text, canvas, below.'
+      alt=' '
     />
   )
 }
@@ -28,4 +32,16 @@ function PortfolioCV(props: CanvasProps) {
 PortfolioCV.defaultProps = defaultProps;
 
 
-export { PortfolioCV, artlens, artlensWall, canvas, canvasCrop, cmaGif, persona }
+export { 
+  PortfolioCV,
+  artlens,
+  artlensWall,
+  canvas,
+  cmaGif,
+  persona,
+  couplePlaying,
+  projectionOriginal,
+  playerDrawing,
+  projectionCorpse,
+  projectionOriginalCrop
+ }

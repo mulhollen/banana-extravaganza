@@ -2,7 +2,7 @@ import Image from "next/image"
 
 import { Video, OtherProjects } from "@/components/shared-components"
 
-import { challenge, search, soundSuit, liv_app_2 } from "@/img/ArtInvestigator"
+import { challenge, search, soundSuit, liv_app_2, liv_thinking } from "@/img/ArtInvestigator"
 
 export default function ArtInvestigator() {
 
@@ -76,7 +76,7 @@ export default function ArtInvestigator() {
         </div>
       </div>
       <div className="bodyWidth d-flex justify-content-center yellow flip my-3 mx-auto">
-        <Image className="pl-0 portPic" src={search} alt="" />
+        <Image className="pl-0 portPic" src={liv_thinking} alt="" />
         <div>
           <h3 className="px-5 pt-5">lessons learned:</h3>
           <ul className="px-5 py-3">

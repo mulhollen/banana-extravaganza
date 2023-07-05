@@ -2,13 +2,20 @@ import Image from 'next/image'
 
 import { OtherProjects } from '@/components/shared-components'
 
-import { persona, artlens, canvasCrop } from '@/img/Canvas'
+import {
+  projectionOriginal,
+  persona,
+  artlens,
+  couplePlaying,
+  playerDrawing,
+  projectionCorpse
+} from '@/img/Canvas'
 
 export default function Canvas() {
 
   return (
     <div className='app__main--proj'>
-      <Image className='w-100 h-auto' src={canvasCrop} alt='' />                
+      <Image className='w-100 h-auto' src={projectionOriginal} alt='' />                
       <div className='d-flex justify-content-center flex-column port-h1 bodyWidth'>
         <h1 className='mt-5 text-center portH1'>Where fine art meets fun.</h1>
         <h3 className='m-wide'>
@@ -18,7 +25,7 @@ export default function Canvas() {
         <div>
           <h3 className='px-5 pt-5'>meet sidney and charlie.</h3>
           <p className='px-5 py-3'>
-            Sidney and Charlie are the couple that spend their weekends looking for the next cool thing to do. Find them wandering in local breweries and shops, seeking out the next &qquot;it&quot; restaurants, lounging and listening to live, local music. They love to love to get out and experience a new twist on an old hang.                            
+            Sidney and Charlie are the couple that spend their weekends looking for the next cool thing to do. Find them wandering in local breweries and shops, seeking out the next &quot;it&quot; restaurants, lounging and listening to live, local music. They love to love to get out and experience a new twist on an old hang.                            
             <br /><br />
             When it comes to fine art, Sid and Char are the couple that likes it but feels they’re missing something something from the process. They’re more likely to go to a museum or gallery that includes some type of interaction; the interaction makes them feel like they’re “getting it.”
           </p>
@@ -34,7 +41,7 @@ export default function Canvas() {
         </div>
       </div>
       <div className='bodyWidth d-flex justify-content-center yellow flip my-3 mx-auto'>
-        <Image className='pl-0 portPic' src={persona} alt='' />
+        <Image className='pl-0 portPic' src={couplePlaying} alt='' />
         <div>
           <h3 className='px-5 pt-5'>user focused goals:</h3>
           <ul className='px-5 py-3'>
@@ -74,7 +81,7 @@ export default function Canvas() {
         </div>
       </div>
       <div className='bodyWidth d-flex justify-content-center yellow flip my-3 mx-auto'>
-        <Image className='pl-0 portPic' src={persona} alt='' />
+        <Image className='pl-0 portPic' src={playerDrawing} alt='' />
         <div>
           <h3 className='px-5 pt-5'>Version 2.0.</h3>
           <ul className='px-5 py-3'>
@@ -83,7 +90,7 @@ export default function Canvas() {
           </ul>
         </div>
       </div>
-      <Image className='w-100 mt-5 h-auto' src={persona} alt='' />
+      <Image className='w-100 mt-5 h-auto' src={projectionCorpse} alt='' />
       <OtherProjects current='Canvas' />
     </div>
   )
