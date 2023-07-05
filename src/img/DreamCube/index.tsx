@@ -27,7 +27,17 @@ function PortfolioDC(props: DreamCubeProps) {
   )
 }
 
+function PortfolioDCWide(props: DreamCubeProps) {
+  return (
+    <Image
+      src={cameron}
+      className={props.classes}
+      alt='Man in motion dribbling soccer ball in front of video projection of artistically placed soccer stadium elements.'
+    />
+  )
+}
+
 PortfolioDC.defaultProps = defaultProps;
 
 
-export { cameron, cubeCloseScreenWall, cubeAndBoard, cubeGif, cubeInPlay, cubePeople, cubeHitMe, PortfolioDC }
+export { cameron, cubeCloseScreenWall, cubeAndBoard, cubeGif, cubeInPlay, cubePeople, cubeHitMe, PortfolioDC, PortfolioDCWide }

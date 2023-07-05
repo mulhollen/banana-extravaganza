@@ -5,7 +5,8 @@ import PortfolioSquare from './portfolio-square'
 import { PortfolioAI } from '@/img/ArtInvestigator'
 import { PortfolioHS } from '@/img/hStreamStore'
 import { PortfolioEH } from '@/img/EverythingHappens'
-import { PortfolioDC } from '@/img/DreamCube'
+import {PortfolioDCWide } from '@/img/DreamCube'
+import { PortfolioCV } from '@/img/Canvas'
 
 type MinimalPortfolioProps = {
   imageClasses: string
@@ -23,11 +24,14 @@ const MinimalPortfolio = (props : MinimalPortfolioProps) => {
       <div>
         <div className='d-flex flex-row'>
           <PortfolioSquare linkPath='/art-investigator' img={<PortfolioAI classes={props.imageClasses} />} title={<h3 className='main'>art<br />investigator</h3>} />
-          <PortfolioSquare linkPath='/dream-cube' img={<PortfolioDC classes={props.imageClasses} />} title={<h3 className='main'>dream<br />cube</h3>} />
+          <PortfolioSquare linkPath='/hstream-store' img={<PortfolioHS classes={props.imageClasses} />} title={<h3 className='main'>hStream<br />store</h3>} />
+        </div>
+        <div className='d-flex flex-row'>
+          <PortfolioSquare linkPath='/dream-cube' img={<PortfolioDCWide classes={props.imageClasses} />} title={<h3 className='main'>dream<br />cube</h3>} />
         </div>
         <div className='d-flex flex-row'>
           <PortfolioSquare linkPath='/everything-happens' img={<PortfolioEH classes={props.imageClasses} />} title={<h3 className='main'>everything<br />happens</h3>} />
-          <PortfolioSquare linkPath='/hstream-store' img={<PortfolioHS classes={props.imageClasses} />} title={<h3 className='main'>hStream<br />store</h3>} />
+          <PortfolioSquare linkPath='/canvas' img={<PortfolioCV classes={props.imageClasses} />} title={<h3 className='main'>canvas</h3>} />
         </div>
       </div>
     </section>
