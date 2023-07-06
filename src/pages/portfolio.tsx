@@ -35,6 +35,7 @@ export default function Portfolio(props : PortfolioProps) {
         <SquiggleLine classes='portfolioContent__lineBreak' />
         <PortfolioWide
           linkPath={'/hstream-store'}
+          flip
           title={<h2 className='mb-5'>hStream<br />Store</h2>}
           description={'Modern React update enabling B2B and B2C transactions of courses in continuing healthcare education. Utilizing headless CMS Znode, I worked as one of two React developers architecting and building the site over a four-month zero-to-release period.'}
           tools={'React - React Context API - React Hooks - Sass - Reactstrap - znode - Airbnb Prettier + ESLint - Enzyme - Jest'}
@@ -43,7 +44,6 @@ export default function Portfolio(props : PortfolioProps) {
         <SquiggleLine classes='portfolioContent__lineBreak' />
         <PortfolioWide
           linkPath={'/art-investigator'}
-          flip
           title={<h2 className='mb-5'>art<br />investigator</h2>}
           description={'Art, especially gallery art and museum art, can be hard to digest and alienating for children. The goal of Art Investigator is to make museum art understandable, relatable, and fun for children at an early reading age (7-11 years old). Working with Nick Cave&apos;s Feat. exhibit at The Frist Museum in Nashville, Tennessee, Art Investigator is an interactive tour through the exhibit that focuses on learning, emotional intelligence, and creating interaction points for parents and their children.'}
           tools={'User Research - User Testing - UX/UI Design - CRUD Application - Firebase - Firebase Storage Bucket - Jquery - Sass - Bootstrap'}
